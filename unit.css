@@ -1,0 +1,72 @@
+#con_body{
+	width : 860px;
+	height: 140px;
+	margin: 150px auto;
+	margin-top: 250px;
+	 
+}
+
+
+body{
+	background-size: cover;
+    background-attachment: fixed;
+	background-image: url(wall.png);
+}
+
+#unit_head{
+	text-align: center;
+	font-size: 25px;
+}
+
+
+#unit_type{
+	width : 660px;
+	height: 30px;
+	margin-left: 100px;
+
+}
+
+#result{
+	text-align: center;
+	margin-top: -150px;
+	font-size: 20px;
+}
+
+#unit_choice1{
+	margin-left: px;
+	width :184px;
+	height: 30px;
+}
+
+#unit_choice2{
+	width :184px;
+	margin-left:0px; 
+	height: 30px;
+}
+
+
+#input_from{
+	margin-left: 100px;
+	width :104px;
+	height: 24px;
+}
+
+#output_to{
+	width :104px;
+	margin-left:60px; 
+	height: 24px;
+}
+
+
+
+
+
+
+
+
+#from{
+	margin-left: 100px;
+}
+#to{
+	margin-left: 303px;
+}

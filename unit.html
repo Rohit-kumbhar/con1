@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<link rel="stylesheet" type="text/css" href="unit.css">
+    </head>
+    <body onLoad="show()"  >	
+		<div id="con_body" >
+
+    			<div id="unit_head">CHOOSE UNIT</div>
+	            <select id="unit_type" onchange="show()"  class="myinput">
+	                <option></option>
+	                <option>Length</option>
+					<option>Area</option>
+					<option>Volume</option>
+					<option>Mass</option>
+					<option>Density</option>
+					<option>Speed</option>
+					<option>Temperature</option>
+	            </select>
+	            
+	            <div>
+	            	<big id="from">FROM.</big><big id="to" >TO.</big>
+	            </div>
+	            <div>
+	            	<input type="number" name="" id="input_from" onchange="show()">
+		            <select id="unit_choice1" onchange="show()"  class="myinput">
+		                <option></option>
+						<option id="0"></option>
+						<option id="1"></option>
+						<option id="2"></option>
+						<option id="3"></option>
+						<option id="4"></option>
+					
+		            </select>
+		            <input type="number" name="" id="output_to">
+		            <select id="unit_choice2" onchange="show()"  class="myinput">
+		                <option></option>
+		                <option id="01"></option>
+						<option id="11"></option>
+						<option id="21"></option>
+						<option id="31"></option>
+						<option id="41"></option>
+					
+		            </select>
+		        </div>
+		    </div>
+		    <p id="result"></p>
+            	
+	    
+
+    	<script src="unit.js"></script>
+    </body>
+</html>
